@@ -10,7 +10,6 @@ Este proyecto es una aplicación de red social desarrollada con React + TypeScri
 - 💬 Sistema de comentarios
 - 👤 Perfiles de usuario personalizables
 - 🔒 Rutas protegidas para usuarios autenticados
-- 🌙 Diseño oscuro moderno
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -44,7 +43,7 @@ yarn install
 
 3. Crea un archivo `.env` en la raíz del proyecto:
 ```env
-VITE_API_URL=http://localhost:3000/api
+VITE_API_URL=http://localhost:3000/
 ```
 
 4. Inicia el servidor de desarrollo:
@@ -76,7 +75,7 @@ La aplicación utiliza autenticación basada en tokens JWT. El token se almacena
 
 ## 🎨 Estilos
 
-Los estilos están implementados con Tailwind CSS, proporcionando un diseño moderno y responsivo. La aplicación incluye un tema oscuro por defecto.
+Los estilos están implementados con Tailwind CSS, proporcionando un diseño moderno y responsivo.
 
 ## 📱 Funcionalidades Principales
 
@@ -92,10 +91,3 @@ Los estilos están implementados con Tailwind CSS, proporcionando un diseño mod
 - Cambiar foto de perfil
 - Actualizar correo y contraseña
 
-## 👥 Contribución
-
-Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir los cambios que te gustaría realizar.
-
-## 📄 Licencia
-
-[MIT](https://choosealicense.com/licenses/mit/)
